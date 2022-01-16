@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(217, 54%, 11%);
+}
+.root {
+  --first-div: hsl(216, 50%, 16%);
+  --soft-blue: hsl(215, 51%, 70%);
+}
+/* MAIN DIV */
+.first-div {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 13px;
+  height: 846px;
+  margin-left: 424px;
+  margin-top: 139px;
+  width: 543px;
+}
+
+/* Second DIV */
+.eth {
+  margin-top: 29px;
+  margin-left: 23px;
+  display: inline-flex;
+  height: 20px;
+  background-color: var(--first-div);
+}
+.eth-svg {
+  width: 10px;
+  background-color: var(--first-div);
+}
+.eth-value {
+  margin-left: 9px;
+  margin-top: -1px;
+  color: aqua;
+}
+
+/* Third Div */
+.clock {
+  margin-left: -5px;
+  background-color: var(--first-div);
+}
+.days-left {
+  margin-top: -23px;
+  font-weight: 300;
+  color: #8bacda;
+}
+.time-left {
+  float: right;
+  margin-right: 22px;
+  margin-top: 25px;
+  background-color: var(--first-div);
+}
+/* Fourth Div */
+.footer {
+  margin-top: 34px;
+  margin-left: 2px;
+  background-color: var(--first-div);
+}
+/* IMAGES */
+.main-image {
+  border-radius: 12px;
+  margin-left: 22px;
+  margin-top: 29px;
+  width: 500px;
+}
+.avatar {
+  width: 68px;
+  margin-left: 45px;
+  background-color: var(--first-div);
+  border: 1px solid white;
+  border-radius: 50%;
+  border-bottom: 1px;
+}
+
+/* P TAGS */
+.about {
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+.equi {
+  font-family: Outfit;
+  margin-left: 22px;
+  margin-top: 21px;
+  font-weight: 600;
+}
+p {
+  background-color: var(--first-div);
+  color: hsl(0, 0%, 100%);
+
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.describe {
+  float: right;
+  margin-right: 147px;
+  margin-top: 24px;
+  font-weight: 300;
+}
+
+.hr {
+  margin-top: 22px;
+  width: 90%;
+  margin-left: 28px;
+  border-top: 1px groove #8bacda;
+}
+span {
+  background-color: var(--first-div);
+}
